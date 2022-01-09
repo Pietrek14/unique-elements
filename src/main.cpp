@@ -36,8 +36,8 @@ int main()
 
 	// Find unique elements
 
-	// There can't be any more unique elements than there are elements in the bigger array
-	int *result = new int[size1 > size2 ? size1 : size2];
+	// There can't be any more unique elements than there are elements in both arrays
+	int *result = new int[size1 + size2];
 	int resultSize = 0;
 
 	int i = 0, j = 0;
